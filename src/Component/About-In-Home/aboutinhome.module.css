@@ -1,0 +1,87 @@
+.about {
+  position: relative;
+  overflow: hidden;
+  background: #0C1844;
+}
+
+@media (min-width: 992px) {
+  .about::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 0;
+    right: -400px;
+    background: #C80036;
+    transform: skew(28deg);
+  }
+
+  .about .aboutContent {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 0;
+    left: -400px;
+    background: #C80036;
+    transform: skew(28deg);
+  }
+
+  .about .aboutContent {
+    margin-bottom: 0px !important;
+  }
+}
+
+.about .aboutContent {
+  position: relative;
+  z-index: 9;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideLeft 1s ease-in-out forwards;
+}
+
+.about .aboutImg {
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tabLink {
+  position: relative;
+  transform: skew(18deg);
+  text-align: center;
+  background: #fff;
+  color: #0C1844;
+  cursor: pointer;
+}
+
+.tabLink span {
+  transform: skew(-18deg);
+}
+
+.tabLink.active {
+  background: #C80036 !important;
+  color: #fff !important;
+}
