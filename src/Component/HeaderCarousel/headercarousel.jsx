@@ -98,7 +98,7 @@ const HeaderCarousel = () => {
               <div className="container">
                 <div className="row g-4 align-items-center">
                   <div className="col-lg-7">
-                    {/* 👇 Custom animation class */}
+                    {/* Custom animation class */}
                     <div
                       className={`text-sm-center text-md-start ${styles.slideInLeft}`}
                     >

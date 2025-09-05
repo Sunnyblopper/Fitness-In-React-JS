@@ -73,6 +73,11 @@
     height: 700px;
 }
 
+.headerCarousel {
+    position: relative;
+    height: 700px;
+}
+
 .headerCarousel .owl-nav .owl-prev,
 .headerCarousel .owl-nav .owl-next {
     position: absolute;
@@ -132,22 +137,18 @@
         padding-top: 45px;
     }
 
-    .headerCarousel,
+    /* .headerCarousel,
     .headerCarouselItem {
         height: 700px;
-    }
+    } */
 }
 
-
-/* Add these styles to your existing headercarousel.module.css file */
 
 .swiperButtonPrev,
 .swiperButtonNext {
     position: absolute;
-    /* top: 0px; */
-    bottom: 50px;
+    bottom: 30px;
     width: 60px;
-    margin-left: 3px;
     height: 60px;
     background: #fff;
     color: #C80036;
@@ -160,16 +161,15 @@
     transition: 0.5s;
     z-index: 10;
     border: none;
-    cursor: pointer;
     user-select: none;
 }
 
 .swiperButtonPrev {
-    left: calc(48% - 50px);
+    left: 45%;
 }
 
 .swiperButtonNext {
-    left: calc(50% + 10px);
+    left: 51%;
 }
 
 .swiperButtonPrev:hover,

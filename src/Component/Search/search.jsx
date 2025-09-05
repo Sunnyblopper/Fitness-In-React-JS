@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./search.module.css";
 
 const SearchModal = ({ onClose }) => {
   return (
@@ -7,7 +8,7 @@ const SearchModal = ({ onClose }) => {
       style={{ backgroundColor: "#fff" }}
     >
       <div className="modal-dialog modal-fullscreen">
-        <div className="modal-content rounded-0">
+        <div className={`modal-content rounded-0 ${styles.modalContent}`}>
           {/* Header */}
           <div className="modal-header" style={{ padding: "16px 16px" }}>
             <h5
@@ -39,12 +40,26 @@ const SearchModal = ({ onClose }) => {
               <input
                 type="search"
                 className="form-control p-3"
-                placeholder="keywords" style={{borderRadius: '1px'}} />
+                placeholder="keywords"
+                style={{ borderRadius: "1px" }}
+              />
               <span
                 id="search-icon-1"
                 className="btn border input-group-text p-3"
-              style={{borderRadius: '1px', backgroundColor: "#fff5e1 "}} >
-                <i className="fa fa-search" style={{color: '#878d97', cursor: "pointer", fontSize: "1rem", userSelect: "none",}}></i>
+                style={{
+                  borderRadius: "1px",
+                  backgroundColor: "#fff5e1 ",
+                }}
+              >
+                <i
+                  className="fa fa-search"
+                  style={{
+                    color: "#878d97",
+                    cursor: "pointer",
+                    fontSize: "1rem",
+                    userSelect: "none",
+                  }}
+                ></i>
               </span>
             </div>
           </div>

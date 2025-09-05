@@ -7,7 +7,7 @@ const AboutInHome = () => {
       <div className="container pt-5">
         <div className="row g-5">
           {/* Left Side Content */}
-          <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+          <div className="col-xl-6 wow">
             <div className={`${styles.aboutContent} h-100`}>
               <h4
                 className="text-primary"
@@ -170,9 +170,8 @@ const AboutInHome = () => {
                     <a
                       href="#"
                       className="btn btn-light btn-lg-square position-relative wow tada"
-                      data-wow-delay=".9s"
                     >
-                      <i className="fa fa-phone-alt fa-2x"></i>
+                      <i className="fas fa-phone-alt fa-2x"></i>
                       <div
                         className="position-absolute"
                         style={{ top: "5px", right: "5px" }}
@@ -214,7 +213,7 @@ const AboutInHome = () => {
           </div>
 
           {/* Right Side Image */}
-          <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div className="col-xl-6 wow fadeInUp">
             <div className={`${styles.aboutImg} h-100`}>
               <div className="d-flex h-100">
                 <img

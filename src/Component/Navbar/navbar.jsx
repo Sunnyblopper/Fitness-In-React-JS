@@ -171,7 +171,7 @@ const Navbar = () => {
                     </a>
 
                     <div className="nav-btn ps-3">
-                      {/* 🔍 Search button */}
+                      {/* Search button */}
                       <button
                         className="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0"
                         onClick={() => setShowSearch(true)}

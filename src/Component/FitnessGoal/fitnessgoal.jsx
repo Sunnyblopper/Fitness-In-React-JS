@@ -32,8 +32,12 @@ const FitnessGoal = () => {
               <div className={`d-flex p-4 ${styles.goalItem}`}>
                 <div className="d-flex me-4">
                   <div
-                    className="bg-primary d-inline p-3"
-                    style={{ width: "80px", height: "80px" }}
+                    className=" d-inline p-3"
+                    style={{
+                      width: "80px",
+                      height: "80px",
+                      backgroundColor: "#C80036",
+                    }}
                   >
                     <img
                       src="./image/icon-1.png"
@@ -69,8 +73,12 @@ const FitnessGoal = () => {
               <div className={`d-flex p-4 mb-4 ${styles.goalItem}`}>
                 <div className="d-flex me-4">
                   <div
-                    className="bg-primary d-inline p-3"
-                    style={{ width: "80px", height: "80px" }}
+                    className=" d-inline p-3"
+                    style={{
+                      width: "80px",
+                      height: "80px",
+                      backgroundColor: "#C80036",
+                    }}
                   >
                     <img
                       src="./image/icon-6.png"

@@ -8,11 +8,11 @@ import Home from './Component/Home/home'
 const App = () => {
   return (
     <div>
-      {/* <FitnessGoal /> */}
+      <AboutInHome />
 
       {/* <HeaderCarousel /> */}
 
-      <Home />
+      {/* <Home /> */}
     </div>
   )
 }
