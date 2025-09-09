@@ -1,0 +1,99 @@
+.feature {
+  overflow: hidden;
+}
+
+.featureCarousel {
+  z-index: 9;
+  transform: skew(10deg);
+  overflow: hidden;
+}
+
+.featureShaps {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin-top: -200px;
+  transform: skewX(-10deg);
+  border: 3px solid #C80036;
+  z-index: 2;
+}
+
+
+
+@media (max-width: 576px) {
+  .featureShaps {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.featureItem {
+  position: relative;
+}
+
+.featureImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.featureImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: rgba(255, 245, 225, 0.5);
+  transition: 0.5s;
+}
+
+.featureItem:hover .featureImg::after {
+  height: 100%;
+  transform: scaleX(-1.1);
+}
+
+.featureImg img {
+  transition: 0.5s;
+}
+
+.featureItem:hover .featureImg img {
+  transform: scaleX(-1.1);
+}
+
+.featureContent {
+  position: relative;
+  background: #fff;
+  z-index: 1;
+}
+
+.featureContent h4 {
+  transition: 0.5s;
+}
+
+.featureItem:hover .featureContent h4 {
+  color: #C80036;
+}
+
+.featureContent::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 0;
+  left: 0;
+  background: #0C1844;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.featureItem:hover .featureContent::after {
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .featureCarousel {
+    padding: 0 15px; 
+  }
+}
+

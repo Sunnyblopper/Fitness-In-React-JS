@@ -7,7 +7,7 @@ const FitnessGoal = () => {
       <div className="container pt-5">
         <div className="row g-5">
           {/* Left Content */}
-          <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+          <div className={`col-lg-6 ${styles.slideInLeft}`}>
             <div className={styles.goalContent}>
               <h4
                 className="text-primary"
@@ -120,7 +120,7 @@ const FitnessGoal = () => {
           </div>
 
           {/* Right Image */}
-          <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+          <div className={`col-lg-6 ${styles.slideInRight}`}>
             <div className="h-100">
               <img
                 src="./image/fitness-goal-banner.png"
