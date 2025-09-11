@@ -104,12 +104,12 @@ const FitnessCourse = () => {
                 >
                   Gym Fitness Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>
@@ -173,12 +173,12 @@ const FitnessCourse = () => {
                 >
                   Power Lifting Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>
@@ -242,12 +242,12 @@ const FitnessCourse = () => {
                 >
                   Body Building Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>
@@ -311,12 +311,12 @@ const FitnessCourse = () => {
                 >
                   Aerobics & Skipping Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>
@@ -380,12 +380,12 @@ const FitnessCourse = () => {
                 >
                   Boxing Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>
@@ -449,12 +449,12 @@ const FitnessCourse = () => {
                 >
                   Cardio Class
                 </a>
-                <p className="mb-4">
+                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span>Read More</span>
+                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
                 </a>
               </div>
             </div>

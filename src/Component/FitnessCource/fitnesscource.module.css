@@ -19,7 +19,7 @@
 }
 
 .courses-item:hover p {
-  color: var(--bs-body);
+  color: rgb(135, 141, 151);
 }
 
 .courses-item-inner {
@@ -44,7 +44,7 @@
 }
 
 .courses-item:hover .courses-item-inner .data-info .courses-trainer {
-  color: var(--bs-body);
+  color: rgb(255, 255, 255);
 }
 
 .courses-item-inner .data-info .courses-date {
