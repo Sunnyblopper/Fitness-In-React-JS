@@ -1,0 +1,79 @@
+.blog {
+  overflow: hidden;
+}
+
+.blogItem {
+  position: relative;
+  border: 1px solid #C80036;
+  transition: 0.5s;
+}
+
+.blogContent {
+  background: white;
+}
+
+.blogImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.blogImg img {
+  transition: 0.5s;
+}
+
+.blogItem:hover .blogImg img {
+  transform: scale(1.3);
+}
+
+.blogImg::after {
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: skew(100deg);
+  background: rgba(200, 0, 54, 1);
+  border: none;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.blogImg::before {
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: skew(-100deg);
+  background: rgba(12, 24, 68, 1);
+  border: none;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.blogComment {
+  transform: skew(8deg);
+  background: rgba(12, 24, 68, 1);
+}
+
+.blogComment div.small,
+.blogComment span {
+  transform: skew(-9deg);
+}
+
+
+:global(.btn-dark).btnBackground {
+    background-color: #0C1844 !important;
+    color: #C80036 !important;
+    border: none !important;
+
+}
+
+:global(.btn-dark).btnBackground:hover {
+    background-color: #C80036 !important;
+    color: #fff !important;
+}

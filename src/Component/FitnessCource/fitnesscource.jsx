@@ -7,15 +7,12 @@ const FitnessCourse = () => {
       <div className="container py-5">
         {/* Section Heading */}
         <div
-          className="text-center mx-auto pb-5 wow fadeInUp"
-          data-wow-delay="0.2s"
+          className={`text-center mx-auto pb-5 ${styles["section-heading"]}`}
           style={{ maxWidth: "800px" }}
         >
           <h4
             className="text-primary"
-            style={{
-              fontFamily: "Teko, sans-serif",
-            }}
+            style={{ fontFamily: "Teko, sans-serif" }}
           >
             Our Courses
           </h4>
@@ -47,7 +44,7 @@ const FitnessCourse = () => {
         {/* Courses Grid */}
         <div className="row gy-4 gx-0 justify-content-center">
           {/* Card 1 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-1"]}`}>
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -98,25 +95,35 @@ const FitnessCourse = () => {
                 <a
                   href="#"
                   className="d-inline-block h4 mb-3"
-                  style={{
-                    fontFamily: "Teko, sans-serif",
-                  }}
+                  style={{ fontFamily: "Teko, sans-serif" }}
                 >
                   Gym Fitness Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
+          {/* Duplicate structure for each card, grouped accordingly */}
           {/* Card 2 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-2"]}`}>
+            {/* ... same structure, different content/icon */}
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -167,25 +174,33 @@ const FitnessCourse = () => {
                 <a
                   href="#"
                   className="d-inline-block h4 mb-3"
-                  style={{
-                    fontFamily: "Teko, sans-serif",
-                  }}
+                  style={{ fontFamily: "Teko, sans-serif" }}
                 >
                   Power Lifting Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-3"]}`}>
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -242,19 +257,29 @@ const FitnessCourse = () => {
                 >
                   Body Building Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Card 4 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-1"]}`}>
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -311,19 +336,29 @@ const FitnessCourse = () => {
                 >
                   Aerobics & Skipping Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Card 5 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-2"]}`}>
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -380,19 +415,29 @@ const FitnessCourse = () => {
                 >
                   Boxing Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Card 6 */}
-          <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+          <div className={`col-md-6 col-lg-4 ${styles["card-group-3"]}`}>
             <div className={styles["courses-item"]}>
               <div className={`${styles["courses-item-inner"]} p-4`}>
                 <div className="d-flex justify-content-between mb-4">
@@ -449,22 +494,29 @@ const FitnessCourse = () => {
                 >
                   Cardio Class
                 </a>
-                <p className="mb-4" style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>
+                <p
+                  className="mb-4"
+                  style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px" }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Atque tempora illo placeat.
                 </p>
                 <a href="#" className="btn btn-primary py-2 px-4">
-                  <span style={{ fontFamily: "Roboto, sans-serif", fontSize: "16px",  }}>Read More</span>
+                  <span
+                    style={{
+                      fontFamily: "Roboto, sans-serif",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Read More
+                  </span>
                 </a>
               </div>
             </div>
           </div>
 
           {/* More Courses Button */}
-          <div
-            className="col-12 text-center wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
+          <div className={`col-12 text-center ${styles["more-courses-btn"]}`}>
             <a href="#" className="btn btn-primary py-3 px-5">
               <span>More Courses</span>
             </a>
