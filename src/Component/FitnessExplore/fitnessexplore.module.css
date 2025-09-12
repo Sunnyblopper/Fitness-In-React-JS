@@ -1,3 +1,16 @@
+@keyframes zoomOutCenter {
+  0% {
+    transform: scale(0.1);
+    background-position: center center;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    background-position: center center;
+    opacity: 1;
+  }
+}
+
 .explore {
   position: relative;
   overflow: hidden;
@@ -6,4 +19,5 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: zoomOutCenter 1.2s ease forwards;
 }
