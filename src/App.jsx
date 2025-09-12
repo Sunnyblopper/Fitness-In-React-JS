@@ -14,9 +14,9 @@ const App = () => {
     <div>
       {/* <FitnessGoal /> */}
 
-      <FitnessExplore />
+      {/* <FitnessExplore /> */}
 
-      {/* <Home /> */}
+      <Home />
     </div>
   )
 }
