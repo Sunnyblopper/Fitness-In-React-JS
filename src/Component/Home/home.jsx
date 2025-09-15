@@ -12,14 +12,14 @@ import FitnessTeam from "../FitnessTeam/fitnessteam";
 const home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <HeaderCarousel />
       <AboutInHome />
       <FitnessGoal />
       <FitnessFeature />
       <FitnessCourse />
       <FitnessBlog />
-      <FitnessExplore />
+      <FitnessExplore /> */}
       <FitnessTeam />
     </div>
   );

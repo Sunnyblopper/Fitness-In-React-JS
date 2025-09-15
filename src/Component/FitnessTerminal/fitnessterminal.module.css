@@ -1,0 +1,73 @@
+.testimonial {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.9)),
+    url("../image/services-img.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonialItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.quoteIcon {
+  position: absolute;
+  top: -10px;
+  left: -13px;
+  color: #fff;
+}
+
+.testimonialImg {
+  border: 2px solid #C80036;
+}
+
+.testimonialImg img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.testimonialCarousel :global(.swiper-button-prev),
+.testimonialCarousel :global(.swiper-button-next) {
+  width: 50px;
+  height: 50px;
+  transform: skew(18deg);
+  background: #C80036;
+  color: white;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  top: 6%;
+  position: absolute;
+}
+
+.testimonialCarousel :global(.swiper-button-prev) {
+  left: 8px; 
+}
+
+.testimonialCarousel :global(.swiper-button-next) {
+  right: 8px; 
+}
+
+
+.testimonialCarousel :global(.swiper-button-prev::after),
+.testimonialCarousel :global(.swiper-button-next::after) {
+  font-size: 20px;
+  transform: skew(-18deg);
+}
+
+.testimonialCarousel :global(.swiper-button-prev:hover),
+.testimonialCarousel :global(.swiper-button-next:hover) {
+  background: white;
+  color: #C80036;
+}

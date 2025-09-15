@@ -8,15 +8,16 @@ import FitnessFeature from './Component/FitnessFeature/fitnessfeature'
 import FitnessCourse from './Component/FitnessCource/fitnesscource'
 import FitnessBlog from './Component/FitnessBlog/fitnessblog'
 import FitnessExplore from './Component/FitnessExplore/fitnessexplore'
+import FitnessTerminal from './Component/FitnessTerminal/fitnessterminal'
 
 const App = () => {
   return (
     <div>
       {/* <FitnessGoal /> */}
 
-      {/* <FitnessExplore /> */}
+      <FitnessTerminal />
 
-      <Home />
+      {/* <Home /> */}
     </div>
   )
 }
