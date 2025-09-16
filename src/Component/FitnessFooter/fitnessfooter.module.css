@@ -1,0 +1,66 @@
+.footer {
+    overflow: hidden;
+    background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.98)), url(../image/services-img.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer button {
+    border: none;
+    transition: 0.5s;
+}
+
+.footer button:hover {
+    background: white;
+    color: #0C1844;
+}
+
+.footerItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerItemImg {
+    transform: matrix(1, -0.09, 0, 1, 0, 0);
+    transition: 0.5s;
+}
+
+.footerItemImg:hover {
+    transform: matrix(1, 0.09, 0, 1, 0, 0);
+}
+
+.footerItemImg img {
+    filter: grayscale(50%);
+    transition: 0.5s;
+}
+
+.footerItemImg:hover img {
+    filter: grayscale(0%);
+}
+
+.footerItem a {
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s;
+}
+
+.footerItem p {
+    line-height: 35px;
+}
+
+.footerItem a:hover {
+    letter-spacing: 1px;
+    color: #C80036;
+}
+
+.footerBtn a {
+    transition: 0.5s;
+}
+
+.footerBtn a:hover {
+    background: white;
+    color: #C80036;
+}
